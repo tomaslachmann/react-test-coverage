@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Coverage Analyzer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🧪 React Coverage Report</h1>
+    <div id="filters">
+      <label for="threshold">Minimum Coverage:</label>
+      <select id="threshold">
+        <option value="0">Show All</option>
+        <option value="50">≥ 50%</option>
+        <option value="80">≥ 80%</option>
+      </select>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Hook Name</th>
+          <th>File Path</th>
+          <th>Exported</th>
+          <th>Lines Covered</th>
+          <th>Coverage %</th>
+          <th>Branches %</th>
+          <th>Functions %</th>
+        </tr>
+      </thead>
+      <tbody id="hook-table">
+        <!-- JS will inject rows here -->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

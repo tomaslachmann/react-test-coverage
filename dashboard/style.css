@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #fdfdfd;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th,
+td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background: #f0f0f0;
+}
+code {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+#filters {
+  margin-bottom: 1rem;
+}
